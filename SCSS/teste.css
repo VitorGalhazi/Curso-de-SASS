@@ -1,0 +1,18 @@
+body {
+  background-color: red; }
+
+#batata {
+  border: solid 1px #BADA55; }
+  #batata p {
+    color: white; }
+  #batata:hover {
+    background-color: bisque; }
+
+#legumes {
+  border: solid 1px #BADA55; }
+  #legumes p {
+    color: white; }
+  #legumes:hover {
+    background-color: bisque; }
+
+/*# sourceMappingURL=teste.css.map */

@@ -1,0 +1,24 @@
+ @import "style";
+
+
+
+ $cor-legal: #BADA55;
+ $preto: white;
+
+@mixin alimentos{
+    border: solid 1px $cor-legal;
+    p{
+        color: $preto;
+    }
+    &:hover{
+        background-color: bisque;
+    }
+}
+
+#batata{
+    @include alimentos;
+}
+
+#legumes{
+    @include alimentos;
+}
