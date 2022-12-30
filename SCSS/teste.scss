@@ -1,9 +1,12 @@
  @import "style";
 
-
-
+ $amabille: red;
  $cor-legal: #BADA55;
  $preto: white;
+
+ body{
+    background-color: $amabille;
+ }
 
 @mixin alimentos{
     border: solid 1px $cor-legal;
